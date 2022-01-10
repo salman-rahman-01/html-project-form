@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+body{
+    margin: 10px;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-position: fixed;
+}
+#meet-min{
+    text-align: center;
+    font-weight: bold;
+}
+.dat-loc{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.ent-meet{
+    display: flex;
+    border: 1px solid black;
+    height: 30px;
+    padding-top: 10px;
+}
+#dat{
+    padding-left: 5px;
+}
+#meet{
+    padding-left: 50px;
+}
+.all-work{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 30px;
+    padding-top: 10px;
+}
+#attend{
+    margin-top: 2%;
+    font-weight: bold;
+}
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    padding-right: 150px;
+}
+#responsible{
+    padding-right: 50px;
+}
+.btn{
+    margin-top: 3%;
+    text-align: center;
+}
