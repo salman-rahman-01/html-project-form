@@ -64,9 +64,6 @@ th{
     html{
         font-size: 55%;
     }
-    #dat{
-        padding-top: 5px;
-    }
     .meet-zon{
         margin: 0;
         padding: 0;
@@ -77,9 +74,6 @@ th{
     }
     .ent-meet{
         padding-bottom: 12px;
-    }
-    .respon{
-        padding-bottom: 10px;
     }
     .taker{
         display: grid;
@@ -101,6 +95,11 @@ th{
 }
 
 @media(max-width: 600px){
+    body{
+        width: 100%;
+        padding: 0;
+        margin: 0px;
+    }
     html{
         font-size: 45%;
     }
